@@ -8,5 +8,4 @@ yum install -y epel-release
 
 yum install -y vim man htop bash-com* lsof tar zip tree bc git wget rsync tmux
 yum install -y openssh-clients sysstat iftop iptraf ifstat netcat socat
-
 yum install -y python python-setuptools && easy_install pip
