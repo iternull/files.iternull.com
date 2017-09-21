@@ -16,3 +16,5 @@ yum install -y setuptool \
  system-config-securitylevel-tui \
  system-config-keyboard \
  ntsysv
+
+# lokkit -p 4455:tcp
