@@ -1,3 +1,5 @@
+#
+## Author: ZnHoCn
 ##
 ## Use:
 #    ./dump.sh                   Capture router wlan0 packet
