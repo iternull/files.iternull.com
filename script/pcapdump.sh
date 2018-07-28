@@ -1,7 +1,8 @@
 ##
 ## Use:
 #    ./dump.sh                   Capture router wlan0 packet
-#    ./dump.sh date file_name    Rename UTC Timestamp to year-month-day-hour,minute,second
+#    ./dump.sh date file_name    Rename UTC timestamp to year-month-day-hour,minute,second
+#    ./dump.sh utc 1532779430    Convert timestamp to readable format
 
 # tcpdump -i wlan0 -w wlan0_$(date +%F-%H%M%S).cap
 # tcpflow -r wlan0_2018-01-01-081831.cap
